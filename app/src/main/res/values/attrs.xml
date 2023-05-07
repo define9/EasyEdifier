@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--声明可设计样式-->
+    <declare-styleable name="SwitchSetting">
+        <attr name="title" format="string" />
+        <attr name="description" format="string" />
+        <attr name="key" format="string"/>
+        <attr name="open" format="boolean" />
+    </declare-styleable>
+</resources>

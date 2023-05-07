@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+<!--    <cn.tomisme.easyedifier.me.ui.setting.SwitchSetting-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:title="拦截更新"-->
+<!--        app:description="拦截更新弹窗"-->
+<!--        app:key="updateRemove"-->
+<!--        app:open="false">-->
+<!--    </cn.tomisme.easyedifier.me.ui.setting.SwitchSetting>-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="默认开启"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:height="150dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="去开屏广告"
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="屏蔽更新"
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开启APP切标准模式"
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+</LinearLayout>
